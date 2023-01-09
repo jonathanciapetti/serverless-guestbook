@@ -9,9 +9,6 @@ const guestbook = {
       type: 'GET',
       url: `${apiUrl}/read-guestbook-entries-sequence.json`,
       dataType: 'json',
-      "headers": {
-        "Access-Control-Allow-Origin":"*"
-      },
     });
   },
   // add a single guestbood entry
@@ -27,9 +24,6 @@ const guestbook = {
         comment,
       }),
       dataType: 'json',
-        "headers": {
-        "Access-Control-Allow-Origin":"*"
-      },
     });
   }
 };
